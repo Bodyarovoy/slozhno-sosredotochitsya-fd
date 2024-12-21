@@ -6,25 +6,28 @@
 
 :root.theme-light {
   --page-background-image: url("../images/cover-image-light.png");
+  
   --main-title-color: var(--color-pink-2, #FFC2E6);
   --accent-color: var(--color-pink-4, #FF8DCB);
   --text-main-color: var(--color-grey-1, #353430);
   --text-second-color: var(--color-grey-1, #353430);
   --theme-menu-color: var(--color-grey-1, #353430);
+  /* --background-color: var(--color-pink-1, #FFF1F7); */
   --decoration-color: transparent;
 }
 
-@media (prefers-color-scheme: light) {
 
-  .theme-light .page {
+  @media (prefers-color-scheme: light) {
+    :root {
   /* Вам также нужно будет написать ряд подобных селекторов */
+
     --page-background-image: url("../images/cover-image-light.png");
     --main-title-color: var(--color-pink-2, #FFC2E6);
     --accent-color: var(--color-pink-4, #FF8DCB);
     --text-main-color: var(--color-grey-1, #353430);
     --text-second-color: var(--color-grey-1, #353430);
     --theme-menu-color: var(--color-grey-1, #353430);
+    /* --background-color: var(--color-pink-1,#FFF1F7); */
     --decoration-color: transparent;
-}
-
+  }
 }

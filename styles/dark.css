@@ -16,13 +16,13 @@
   --text-main-color: var(--color-grey-2, #000028);
   --text-second-color: var(--color-pink-2, #F1B2CE);
   --theme-menu-color: var(--color-pink-5, #FF0070);
-  --decoration-color: var(--color-pink-5, #FF0070);
-  
+  --decoration-color: var(--color-pink-5, #FF0070);  
+  /* --background-color: var(--color-grey-2, #000028); */
 }
 
-@media (prefers-color-scheme: dark) {
 
-  .theme-dark .page {
+  @media (prefers-color-scheme: dark) {
+    :root {
   /* Вам также нужно будет написать ряд подобных селекторов */
     --page-background-image: url("../images/cover-image-dark.png");
   
@@ -32,6 +32,6 @@
     --text-second-color: var(--color-pink-2, #F1B2CE);
     --theme-menu-color: var(--color-pink-5, #FF0070);
     --decoration-color: var(--color-pink-5, #FF0070);
-}
-
+    /* --background-color: var(--color-grey-2, #000028); */
+  }
 }
