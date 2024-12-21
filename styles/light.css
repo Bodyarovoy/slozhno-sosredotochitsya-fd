@@ -7,12 +7,17 @@
 :root.theme-light {
   --page-background-image: url("../images/cover-image-light.png");
   
-  --main-title-color: var(--color-pink-2, #FFC2E6);
+  --main-title-color: var(--color-pink-3, #FFC2E6);
   --accent-color: var(--color-pink-4, #FF8DCB);
   --text-main-color: var(--color-grey-1, #353430);
-  --text-second-color: var(--color-grey-1, #353430);
+  --text-title-color: var(--color-grey-1, #353430);
+  --text-article-color: var(--color-grey-1,#353430);
+  --text-shadow-color: var(--color-pink-5, #FF0070);
   --theme-menu-color: var(--color-grey-1, #353430);
-  --decoration-color: transparent;
+  --background-color: var(--color-pink-1, #FFF1F7);
+  --decoration-color: var(--color-grey-1, #353430);
+  --button-hover-color: var(--color-grey-3, #32312D66);
+  --decoration-rec-color: transparent;
 }
 
 
@@ -21,11 +26,16 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 
     --page-background-image: url("../images/cover-image-light.png");
-    --main-title-color: var(--color-pink-2, #FFC2E6);
+    --main-title-color: var(--color-pink-3, #FFC2E6);
     --accent-color: var(--color-pink-4, #FF8DCB);
     --text-main-color: var(--color-grey-1, #353430);
-    --text-second-color: var(--color-grey-1, #353430);
+    --text-title-color: var(--color-grey-1,#353430);
+    --text-article-color: var(--color-grey-1, #353430);
+    --text-shadow-color: var(--color-pink-5, #FF0070);
     --theme-menu-color: var(--color-grey-1, #353430);
-    --decoration-color: transparent;
+    --background-color: var(--color-pink-1, #FFF1F7);
+    --decoration-color: var(--color-grey-1, #353430);
+    --button-hover-color: var(--color-grey-3, #32312D66);
+    --decoration-rec-color: transparent;
   }
 }

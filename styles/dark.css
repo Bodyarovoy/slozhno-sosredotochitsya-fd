@@ -14,9 +14,14 @@
   --main-title-color: var(--color-pink-6, #DB00FF);
   --accent-color: var(--color-pink-5, #FF0070);
   --text-main-color: var(--color-grey-2, #000028);
-  --text-second-color: var(--color-pink-2, #F1B2CE);
+  --text-title-color: var(--color-pink-5, #FF0070);
+  --text-article-color: var(--color-pink-2, #F1B2CE);
+  --text-shadow-color: var(--color-pink-5, #FF0070);
   --theme-menu-color: var(--color-pink-5, #FF0070);
   --decoration-color: var(--color-pink-5, #FF0070);
+  --background-color: var(--color-grey-2, #000028);
+  --decoration-rec-color: var(--color-pink-5, #FF0070);
+  --button-hover-color: var(--color-pink-7, #ff007066);
 }
 
 
@@ -28,8 +33,12 @@
     --main-title-color: var(--color-pink-6, #DB00FF);
     --accent-color: var(--color-pink-5, #FF0070);
     --text-main-color: var(--color-grey-2, #000028);
-    --text-second-color: var(--color-pink-2, #F1B2CE);
+    --text-title-color: var(--color-pink-5, #FF0070);
+    --text-article-color: var(--color-pink-2, #F1B2CE);
+    --text-shadow-color: var(--color-pink-5, #FF0070);
     --theme-menu-color: var(--color-pink-5, #FF0070);
     --decoration-color: var(--color-pink-5, #FF0070);
+    --background-color: var(--color-grey-2, #000028);
+    --decoration-rec-color: var(--color-pink-5, #FF0070);
   }
 }
