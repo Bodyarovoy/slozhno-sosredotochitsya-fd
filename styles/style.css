@@ -16,7 +16,6 @@
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr 1fr;
   min-block-size: 668px;
-  min-block-size: 97vh;
 }
 
 .decorated-zone {
@@ -203,7 +202,6 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr 1fr;
-  min-block-size: 97vh;
   }
 
 
