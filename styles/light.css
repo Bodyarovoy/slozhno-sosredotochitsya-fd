@@ -12,7 +12,6 @@
   --text-main-color: var(--color-grey-1, #353430);
   --text-second-color: var(--color-grey-1, #353430);
   --theme-menu-color: var(--color-grey-1, #353430);
-  /* --background-color: var(--color-pink-1, #FFF1F7); */
   --decoration-color: transparent;
 }
 
@@ -27,7 +26,6 @@
     --text-main-color: var(--color-grey-1, #353430);
     --text-second-color: var(--color-grey-1, #353430);
     --theme-menu-color: var(--color-grey-1, #353430);
-    /* --background-color: var(--color-pink-1,#FFF1F7); */
     --decoration-color: transparent;
   }
 }
