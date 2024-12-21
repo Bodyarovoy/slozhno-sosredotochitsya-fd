@@ -6,7 +6,6 @@
   background: var(--page-background-image) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--background-color);
 }
 
 .header {
