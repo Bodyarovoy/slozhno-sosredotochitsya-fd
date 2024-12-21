@@ -2,3 +2,31 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --color-pink-1: #FFF1F7;
+  --color-pink-2: #F1B2CE;
+  --color-pink-3: #FFC2E6;
+  --color-pink-4: #FF8DCB;
+  --color-pink-5: #FF0070;
+  --color-pink-6: #DB00FF;
+    
+  --color-grey-1: #353430;
+  --color-grey-2: #000028;
+
+  
+
+  --page-background-image: url("../images/cover-image-dark.png");
+
+  --main-title-color: var(--color-pink-6, #DB00FF);
+  --accent-color: var(--color-pink-5, #FF0070);
+  --text-main-color: var(--color-grey-2, #000028);
+  --text-second-color: var(--color-pink-2, #F1B2CE);
+  --theme-menu-color: var(--color-pink-5, #FF0070);
+  --decoration-color: var(--color-pink-5, #FF0070);
+
+}
+
+
+  
+    
