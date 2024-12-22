@@ -16,7 +16,7 @@
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr 1fr;
   min-block-size: 668px;
-  block-size: 100vh; 
+  block-size: 100vh;
   padding: 10px;
 }
 
@@ -212,7 +212,7 @@
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr 1fr;
   min-block-size: 668px;
-  block-size: 100vh; 
+  block-size: 100vh;
   padding: 10px;
   }
 
